@@ -10,9 +10,6 @@
 #define T1H_TICKS           130
 #define T0H_TICKS           33
 #define BITS_PER_UNIT       24
-#define MATRIX_ROWS         8
-#define MATRIX_COLS         32
-#define MATRIX_PIXEL_NUM    (MATRIX_ROWS * MATRIX_COLS)
 #define RESET_NUM           30
 #define BITS_NUM            (BITS_PER_UNIT * MATRIX_PIXEL_NUM + RESET_NUM)
 #define IDLE                0x00

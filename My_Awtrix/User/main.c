@@ -20,6 +20,7 @@
 
 #include "debug.h"
 #include "ws2812b.h"
+#include "awtrix.h"
 
 
 /* Global typedef */
@@ -50,8 +51,7 @@ int main(void)
 
 	while(1)
     {
-	    memset(rgb_frame, 0x01, sizeof(rgb_frame));
-	    ws2812b_refresh(rgb_frame);
+	    enter_AWTRIX();
 	}
 }
 

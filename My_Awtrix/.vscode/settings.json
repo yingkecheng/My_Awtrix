@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "awtrix_font.h": "c",
+        "ws2812b.h": "c",
+        "awtrix.h": "c",
+        "debug.h": "c"
+    }
+}
